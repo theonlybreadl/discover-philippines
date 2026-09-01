@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discover the Philippines | Grade 9 Achievement</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#18324a;background:#f4f9fc;line-height:1.6}
+nav{position:fixed;top:0;left:0;width:100%;z-index:1000;background:rgba(9,45,72,.96);padding:15px 7%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 3px 15px #0004}
+.logo{font-size:22px;font-weight:bold;color:white}
+nav ul{display:flex;list-style:none;gap:25px}
+nav a{color:white;text-decoration:none;font-weight:bold}
+nav a:hover{color:#ffd34e}
+.hero{min-height:100vh;padding:130px 8% 70px;display:flex;align-items:center;justify-content:center;text-align:center;color:white;background:linear-gradient(#063b60aa,#002d4dcc),url("https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=1800&q=85") center/cover}
+.hero h1{font-size:clamp(42px,7vw,82px);margin-bottom:15px;text-shadow:2px 3px 8px #0008}
+.hero p{font-size:21px;max-width:760px;margin:0 auto 28px}
+.btn{display:inline-block;background:#ffd34e;color:#16344d;padding:13px 25px;border-radius:30px;text-decoration:none;font-weight:bold}
+section{padding:85px 8%}
+.title{text-align:center;margin-bottom:40px}
+.title h2{font-size:38px;color:#0a527d}
+.title p{max-width:720px;margin:8px auto;color:#5c7080}
+.about{background:white}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:#f1f7fa;padding:25px;border-radius:16px;box-shadow:0 5px 18px #1232}
+.card h3{color:#0b608d;margin-bottom:8px}
+.gallery{background:#eaf4f8}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.gallery-grid img{width:100%;height:220px;object-fit:cover;border-radius:15px;transition:.3s;box-shadow:0 5px 15px #1233}
+.gallery-grid img:hover{transform:scale(1.04)}
+.video{background:white;text-align:center}
+.video-box{max-width:850px;margin:auto;border-radius:18px;overflow:hidden;box-shadow:0 5px 20px #1233}
+.video-box iframe{width:100%;height:430px;border:0}
+.contact{background:linear-gradient(135deg,#07527d,#0b7896);color:white}
+.contact .title h2,.contact .title p{color:white}
+form{max-width:650px;margin:auto;background:white;padding:30px;border-radius:18px;color:#18324a}
+input,textarea{width:100%;padding:13px;margin:8px 0 15px;border:1px solid #ccd9e0;border-radius:9px;font-size:16px}
+textarea{height:130px;resize:vertical}
+button{border:0;background:#0b638d;color:white;padding:13px 25px;border-radius:25px;font-weight:bold;cursor:pointer}
+button:hover{background:#064967}
+footer{text-align:center;background:#062d46;color:white;padding:25px}
+@media(max-width:700px){nav{flex-direction:column;gap:10px}nav ul{gap:12px;flex-wrap:wrap;justify-content:center}.video-box iframe{height:260px}.hero p{font-size:17px}}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">🇵🇭 Discover PH</div>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#video">Multimedia</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<header class="hero" id="home">
+<div>
+<h1>Discover the Philippines</h1>
+<p>Explore the beautiful islands, amazing destinations, rich culture, and unforgettable experiences of the Philippines.</p>
+<a class="btn" href="#about">Explore Now</a>
+</div>
+</header>
+
+<section class="about" id="about">
+<div class="title">
+<h2>About Philippine Tourism</h2>
+<p>The Philippines is an archipelago known for its beaches, mountains, natural wonders, history, food, and friendly communities.</p>
+</div>
+<div class="cards">
+<div class="card"><h3>🏝️ Beautiful Islands</h3><p>With thousands of islands, the Philippines offers beaches, lagoons, coral reefs, and scenic coastal destinations.</p></div>
+<div class="card"><h3>🌋 Natural Wonders</h3><p>Visitors can discover volcanoes, waterfalls, rice terraces, caves, forests, and other incredible landscapes.</p></div>
+<div class="card"><h3>🏛️ Rich Culture</h3><p>Filipino traditions, festivals, historic places, music, dance, and local food make every trip meaningful.</p></div>
+<div class="card"><h3>🤝 Warm Hospitality</h3><p>Filipinos are known for welcoming visitors and sharing their culture and communities with pride.</p></div>
+</div>
+</section>
+
+<section class="gallery" id="gallery">
+<div class="title">
+<h2>Philippine Destinations</h2>
+<p>Here are some places that show the beauty and diversity of the Philippines.</p>
+</div>
+<div class="gallery-grid">
+<img src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=900&q=85" alt="Tropical beach in the Philippines">
+<img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=900&q=85" alt="Tropical island">
+<img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=85" alt="Mountain landscape">
+<img src="https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=85" alt="Beautiful tropical sea">
+</div>
+</section>
+
+<section class="video" id="video">
+<div class="title">
+<h2>Multimedia</h2>
+<p>Watch a travel video and get inspired to explore the Philippines.</p>
+</div>
+<div class="video-box">
+<iframe src="https://www.youtube.com/embed/2k5V2J7fM6Q" title="Philippines travel video" allowfullscreen></iframe>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="title">
+<h2>Contact Us</h2>
+<p>Have a question or want to share your favorite Philippine destination?</p>
+</div>
+<form onsubmit="sendMessage(event)">
+<label>Name</label>
+<input type="text" placeholder="Your name" required>
+<label>Email</label>
+<input type="email" placeholder="Your email" required>
+<label>Message</label>
+<textarea placeholder="Write your message..." required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+<p><strong>Created by Prince Ezikel Alvarez & Nathaniel Mascarinas</strong></p>
+<p>Grade 9 - Achievement</p>
+<p>© 2026 Discover the Philippines. All Rights Reserved.</p>
+</footer>
+
+<script>
+function sendMessage(e){
+e.preventDefault();
+alert("Thank you for your message! This is a sample contact form for our school project.");
+}
+</script>
+
+</body>
+</html>
